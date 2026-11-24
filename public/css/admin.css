@@ -1,0 +1,117 @@
+.admin-panel { max-width: 720px; }
+
+.admin-title {
+  font-size: 38px;
+  color: #082B42;
+  margin-bottom: 8px;
+}
+
+.admin-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #4A6178;
+  margin-bottom: 24px;
+  max-width: 460px;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.admin-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+}
+
+.login-form {
+  max-width: 360px;
+  margin: 0 auto;
+  align-items: stretch;
+}
+.login-form .btn-gold { align-self: center; margin-top: 6px; }
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #082B42;
+  opacity: 0.85;
+}
+
+.field-input {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: #0A1A2A;
+  background: #FAFCFE;
+  border: 1.5px solid rgba(8,43,66,0.18);
+  border-radius: 10px;
+  padding: 12px 14px;
+  width: 100%;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  outline: none;
+}
+.field-input:focus {
+  border-color: #082B42;
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(8,43,66,0.1);
+}
+
+.field-textarea {
+  resize: vertical;
+  min-height: 110px;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+
+.field-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.admin-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.form-error {
+  background: rgba(180,40,60,0.07);
+  border: 1.5px solid rgba(180,40,60,0.3);
+  color: #b91c1c;
+  padding: 11px 16px;
+  border-radius: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+
+.form-success {
+  background: rgba(8,43,66,0.07);
+  border: 1.5px solid rgba(8,43,66,0.3);
+  color: #082B42;
+  padding: 11px 16px;
+  border-radius: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 640px) {
+  .field-row { grid-template-columns: 1fr; }
+  .admin-panel .panel-inner { padding: 40px 22px 40px; }
+}

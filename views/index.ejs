@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tongston Ltd — Career Opportunity Invitation</title>
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Tongston Ltd — Career Opportunity" />
+  <meta property="og:description" content="You have been selected for a career opportunity. Please review your invitation details below." />
+  <meta property="og:url" content="https://i.imgur.com/c2GOsLF.jpeg" />
+  <meta property="og:site_name" content="Tongston Ltd" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Tongston Ltd — Career Opportunity" />
+  <meta name="twitter:description" content="You have been selected for a career opportunity. Please review your invitation details below." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="/css/response.css" />
+  <link rel="stylesheet" href="/css/brand.css?v=4" />
+  <link rel="stylesheet" href="/css/index.css?v=1" />
+</head>
+<body>
+  <div class="floral-bg" aria-hidden="true"></div>
+  <div class="petals" aria-hidden="true">
+    <span class="petal"></span><span class="petal"></span><span class="petal"></span>
+    <span class="petal"></span><span class="petal"></span><span class="petal"></span>
+    <span class="petal"></span><span class="petal"></span><span class="petal"></span>
+    <span class="petal"></span><span class="petal"></span><span class="petal"></span>
+  </div>
+
+  <header class="site-header" aria-hidden="true"></header>
+
+  <main class="page">
+    <section class="panel" aria-labelledby="page-heading">
+      <div class="panel-inner">
+
+        <!-- Tongston Ltd Logo -->
+        <div class="deco-flower">
+          <svg viewBox="0 0 290 72" xmlns="http://www.w3.org/2000/svg" aria-label="Tongston Ltd">
+            <rect x="2" y="10" width="52" height="52" rx="15" fill="#4A2418"/>
+            <path d="M15 24h26M28 24v25" fill="none" stroke="#F7F1E8" stroke-width="5.5" stroke-linecap="round"/>
+            <circle cx="28" cy="48" r="2.5" fill="#D3A77D"/>
+            <text x="68" y="47" font-family="Inter,sans-serif" font-size="31" font-weight="800" fill="#352016" letter-spacing="-1.2">Tongston</text>
+            <text x="242" y="47" font-family="Inter,sans-serif" font-size="12" font-weight="800" fill="#A66A45" letter-spacing="1.4">LTD</text>
+          </svg>
+        </div>
+
+        <!-- Eyebrow -->
+        <p class="eyebrow"><span aria-hidden="true"></span> Exclusive career invitation</p>
+
+        <!-- Heading -->
+        <h1 class="panel-title" id="page-heading"><%= data.heading.replace(/Meeting/gi, 'Career Opportunity') %></h1>
+
+        <!-- Description -->
+        <p class="panel-desc"><%= data.description %></p>
+
+        <!-- CTA -->
+        <a class="btn-gold" href="/highlights">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4 9h16M8 3v2m8-2v2M5 21h14a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <%= data.buttonText %>
+          <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+
+        <!-- Countdown -->
+        <div class="countdown" id="countdown" data-target="<%= data.countdownTarget %>" aria-label="Countdown to meeting">
+          <div class="cd-unit">
+            <span class="cd-num" id="cd-mo">0</span>
+            <span class="cd-label">mo</span>
+          </div>
+          <div class="cd-unit">
+            <span class="cd-num" id="cd-days">0</span>
+            <span class="cd-label">d</span>
+          </div>
+          <div class="cd-unit">
+            <span class="cd-num" id="cd-hours">0</span>
+            <span class="cd-label">h</span>
+          </div>
+          <div class="cd-unit">
+            <span class="cd-num" id="cd-mins">0</span>
+            <span class="cd-label">m</span>
+          </div>
+          <div class="cd-unit">
+            <span class="cd-num" id="cd-secs">00</span>
+            <span class="cd-label">s</span>
+          </div>
+        </div>
+
+        <!-- When / Where / Time -->
+        <div class="event-details">
+          <div class="detail">
+            <span class="detail-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="8" width="32" height="28" rx="3" fill="#FBF8F3" stroke="#81513C" stroke-width="1.5"/>
+                <rect x="4" y="8" width="32" height="11" rx="3" fill="#F4EDE4"/>
+                <path d="M4 19h32" stroke="#B37A56" stroke-width="1"/>
+                <path d="M13 4v8M27 4v8" stroke="#4A2418" stroke-width="1.8" stroke-linecap="round"/>
+                <text x="20" y="33" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" font-weight="800" fill="#4A2418">22</text>
+                <text x="20" y="16" text-anchor="middle" font-family="Inter,sans-serif" font-size="5.5" font-weight="700" fill="#653728">Jul</text>
+              </svg>
+            </span>
+            <span class="detail-label">When</span>
+            <span class="detail-value"><%= data.eventDate %></span>
+          </div>
+
+          <div class="detail">
+            <span class="detail-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 36C20 36 8 26 8 16a12 12 0 0124 0c0 10-12 20-12 20Z" fill="#FBF8F3" stroke="#81513C" stroke-width="1.5" stroke-linejoin="round"/>
+                <circle cx="20" cy="16" r="4" fill="#F4EDE4" stroke="#4A2418" stroke-width="1"/>
+                <circle cx="20" cy="16" r="1.8" fill="#A66A45"/>
+              </svg>
+            </span>
+            <span class="detail-label">Where</span>
+            <span class="detail-value"><%= data.eventVenue %></span>
+          </div>
+
+          <div class="detail">
+            <span class="detail-icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="15" fill="#FBF8F3" stroke="#81513C" stroke-width="1.5"/>
+                <circle cx="20" cy="5.5" r="1.5" fill="#A66A45"/>
+                <circle cx="20" cy="34.5" r="1.5" fill="#A66A45"/>
+                <circle cx="5.5" cy="20" r="1.5" fill="#A66A45"/>
+                <circle cx="34.5" cy="20" r="1.5" fill="#A66A45"/>
+                <path d="M20 12v8l5 3" stroke="#4A2418" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="20" cy="20" r="2" fill="#4A2418"/>
+              </svg>
+            </span>
+            <span class="detail-label">Time</span>
+            <span class="detail-value"><%= data.eventTime %></span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" aria-hidden="true"></footer>
+
+  <script src="/js/countdown.js"></script>
+  <script src="/js/response.js"></script>
+</body>
+</html>
